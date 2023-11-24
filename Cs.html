@@ -2,77 +2,135 @@
 <html>
 <head> 
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title> COMPUTER SCIENCE DEPARTMENT </title>
+<link rel="stylesheet" href="css1.css" >
 </head>
-<style>
- .top-section{
-  display: flex;
-  margin: none;
-  justify-content: space-between;
-  padding: 1rem;
-  margin-right: 20px;
-  margin-left: 30px;
+<body class="body">
 
- } 
- .logo{
-  width: 350px;
-  height: 150px;
- }
-  .nav-bar{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
- .header-section{
-  text-align: center;
-  background-color: blue;
-  padding: 50px;
-  font-size: 25px;
- }
- .paragraph-section{
-  font-weight: 500;
-  font-size: 50px;
- }
- .list-section{
-  font-size: 25px;
-  font-style: italic;
- }
-</style>
-<body>
-<div class="top-section">
-  <img class="logo"
-  src="comScience_logo.png" >
+  <div>
+  <header class="header-section">
+  <img src="comScience_logo.png" >
   <nav class="nav-bar">
-      <h1>HOME</h1>
-      <h1>ABOUT</h1>
-      <h1>FACULTY</h1>
-      <h1>RESEARCH GROUP</h1>
+      <h1 class="nav-bar"><a href="Cs.html">HOME</a></h1>
+      <h1 class="nav-bar"><a href="Cs2.html">ABOUT</a></h1>
+      <h1 class="nav-bar"><a href="Cs3.html">FACULTY</a></h1>
+      <h1 class="nav-bar"><a href="Cs4.html">RESEARCH GROUP</a></h1>
 </nav>
+</header>
 </div>
-<h2></h2>
-<div>
-<header class="header-section">
+
+<div class="top-section">
  <h1> 
     WELCOME TO COMPUTER SCIENCE DEPARTMENT
   </h1>
-</header>
 </div>
+
 <div>
-<p class="paragraph-section">
-  The department is honoured to have you. We offer the following programmes:
-  <ol class="list-section">
-    <img class="photo"
-    src="PHOTO-2019-03-04-14-42-37.jpg">
-    <li>Short Courses</li>
-    <li>Undergraduate Programmes</li>
-    <li>MPhil and Msc Programmes</li>
-    <li>PhD Programmes</li>
-  </ol>
-</p>
+  <hr>
+<img style="width: 100%; height: 25%;" src="PHOTO-2019-03-04-14-42-37.jpg">
+  <diV class="but-courses">
+    <section>
+    <div>
+      <button class="button">SHORT COURSES</button>
+      <p>
+        Our short courses are<br/>
+        designed to help people<br/>
+        acquire their desired skills<br/>
+        within the shortest time.
+      </p>
+    </div>
+  </section>
+  <section>
+    <div>
+      <button class="button">UNDERGRADUATE COURSES</button>
+      <p>
+        Our undergraduate courses include<br/>
+        Information Technology and Computer<br/>
+        Science which equip you for the <br/>
+        technological world.
+      </p>
+    </div>
+  </section>
+  <section>
+    <div>
+      <button class="button">MPHIL and MSC.COURSES</button>
+      <p>
+        Our MPHIL and Master Of Computer <br/>
+        is our of the best in Africa and a <br/>
+        good graduate-level program that<br/>
+        boosts one's knowledge.
+      </p>
+    </div>
+  </section>
+  <section>
+    <div>
+      <button class="button">Phd COURSES</button>
+      <p>
+        The highest academic degree in Computer<br/>
+        Science is PhD and it is our honour to<br/> 
+        give you that privilege to be a Doctor of<br/>
+        Philosophy in Computer Science.
+      </p>
+    </div>
+  </section>
+  </diV>
 </div>
-</body>
+<div >
+  <hr>
+
+
+  <footer class="footer">
+    <section>
+      <div>
+        <h3>Academics</h3>
+        <li> Undergraduate Courses</li>
+        <li>Graduate Courses(MPhil Computer Science)</li>
+        <li>Graduate Courses(MSc Computer Science)</li>
+        <li>Graduate Courses(PhD)</li>
+        <li>Academic Calendar</li>
+        <li>Level 200 & 300 Timetable</li>
+        <li>Placements For Level 200 Students</li>
+        <li>Student Complaint Form</li>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h3>Admissions</h3>
+        <li>Undergraduate</li>
+        <li>Graduate</li>
+        <li>International Students</li>
+        <li>Entry Requirements</li>
+        <li>Contact Us</li>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h3>Research</h3>
+          <li> Research at DCS</li>
+          <li> Research Impact</li>
+          <li> Libraries</li>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h3>About The Department</h3>
+        <li>Introducing DCS</li>
+        <li>Head of Department's office</li>
+        <li>Faculty</li>
+        <li>Events</li>
+      </div>
+    </section>
+    <section>
 <div>
-  <a href="http://127.0.0.1:5500/Cs2.html"> Next Page</a>
+  <form action="/submit_form" method="post">
+    <label for="email">Email:</label>
+    <input type="email" name="email" placeholder="email">
+    <input type="submit" name="Email">
+  </form>
+</div>
+</section>
+</footer>
 </div>
 </body>
 </html>
