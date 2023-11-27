@@ -14,6 +14,15 @@ Page 9 is the short courses
 Page 10 is the graduate
 
 2.How to Clone And Setup The Project
+ First I instilled git and github and the created an account.
+Then I Clicked on the '+' icon in the top-right corner and slected new repository.
+I gave my project a name and clicked on create repository to finally create my name repository.
+Then I used the link in the I.A to go to Daquiver's repository and copy his URL and clone the 
+repository to my computer by using the command git clone + his URL in my terminal to create the copy.
+After that I started my project in the clone and initialized and commited it using the command git init
+and git commit respestively.
+Then I added more to it by using the command git add. After I finished the Project I used get push
+to send my clone to my main repository and then I used the pull request in github.
 
 
 3.Name: Goku Surprise
